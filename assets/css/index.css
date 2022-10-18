@@ -31,7 +31,7 @@ body{
 .image{
     width: 50%;
     height: 478px;
-    background-image: url(./assets/images/image-product-desktop.jpg);
+    background-image: url(/assets/images/image-product-desktop.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
