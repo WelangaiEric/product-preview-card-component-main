@@ -108,7 +108,50 @@ h2 span{
     color: #555;
     text-decoration: line-through;
 }
-@media  screen and (max-width:678px){
+@media screen and (min-width:1200px){
+    .container{
+        width: 45%;
+        height: 450px;
+
+    }
+    .image{
+        height: 450px;
+    }
+    .description{
+        height: 450px;
+        font-size: 15px;
+    }
+    .btn{
+        height: 30px;
+
+    }
+   
+    
+    
+}
+
+@media screen and (max-width:1199px){
+    .container{
+        width: 70%;
+        height: 400px;
+
+    }
+    .image{
+        height: 400px;
+    }
+    .description{
+        height: 400px;
+        font-size: 15px;
+    }
+    .btn{
+        height: 30px;
+
+    }
+   
+    
+    
+}
+@media  screen and (max-width:768px){
     
     .floatme{
         float: none;
@@ -116,7 +159,12 @@ h2 span{
     .container{
         width: 90%;
         margin-top: -20%;
+
         
+    }
+    .description{
+        height: 400px;
+        font-size: 16px;
     }
     .product{
         width: 100%;
@@ -126,7 +174,7 @@ h2 span{
     }
     .product .image{
         width: 100%;
-        background-image: url(./assets/images/image-product-mobile.jpg);
+        background-image: url(./assets/images/image-product-desktop.jpg);
         border-top-left-radius: 10px;
         border-top-right-radius:10px ;
         border-bottom-left-radius: 0;
@@ -143,4 +191,9 @@ h2 span{
         border-bottom-right-radius:10px ;
     }
 
+}
+@media  screen and (max-width:375px){
+    .description{
+        font-size: 10PX;
+    }
 }
